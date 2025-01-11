@@ -16,50 +16,22 @@ Inside each notebook, we have documented a number of questions and unimplemented
     - You may also install Java OpenJDK **inside** your Anaconda environment with `conda install openjdk`. The `JAVA_HOME` variable should be automatically updated for this environment only.
 
 
-<h2 id="Installation">🛠️ Installation</h2>
-
-To install the project on your local machine, you can use the following command :
-```
-https://github.com/karamoko17/Projet_pyspark.git
-```
-Then move to the project directory and create a new conda environment with the following command :
-```sh
-conda create -n pyspark-tutorial python=3.11
-conda activate pyspark-tutorial
-pip install -r requirements.txt
-# pip install bokeh jupyter numpy pandas psutil pyspark seaborn
-```
-We provide you with a requirements.txt which is used to download dependencies in a conda environment we will name pyspark-tutorial.
-
-You can run the Jupyter notebook now.
-
-Notes: 
-- you may run into `java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.` warnings on Windows. Do not worry about it, they are necessary for remote connections only.
-- you may need to define the `PYSPARK_PYTHON` environment variable so Spark workers can point to the correct Python command.
-
-When you are done with the environment, don't forget to deactivate your Anaconda environment : `conda deactivate`
-
-## Submit
-
-At the end of the course, send your assignments by email to the instructor.
-
-**BEFORE SENDING:**
-
-- Check that your Jupyter notebook runs from start to finish when you run it from top to bottom, using `Kernel > Restart & Run All`. Clean up all unecessary cells. Your grade is based on how far the execution of the notebook goes from top to bottom without me going in.
-- Don't rename the files, and preserve the folder structure when sending the zipped project, even if you did not complete the notebook. It should look like:
+<h2 id="Project-structure">🏗️ Project structure</h2>
 
 ```
-├── 1-beginner
-│   └── 1-Initiation.ipynb
-├── 2-novice
-│   ├── FL_insurance.csv
+├── 1-beginner/
+│   ├── 1-Initiation.ipynb
+│   └── jupyter.png
+├── 2-novice/
 │   ├── 1-Initiation-RDD.ipynb
-│   └── 2-Pagerank-RDD.ipynb
-└── 3-advanced
-│   ├── FL_insurance.csv
-│   ├── titanic.csv
+│   ├── 2-Pagerank-RDD.ipynb
+│   ├── FL_insurance_sample.csv
+│   └── pagerank.png
+├── 3-advanced/
 │   ├── 1-Initiation-SparkSQL.ipynb
-│   └── 2-Advanced-SQL-and-ML.ipynb
+│   ├── 2-Advanced-SQL-and-ML.ipynb
+│   ├── FL_insurance_sample.csv
+│   └── titanic.csv
 ├── cheatsheets/
 │   ├── conda-cheatsheet.pdf
 │   ├── Jupyter-notebook.pdf
@@ -78,6 +50,23 @@ At the end of the course, send your assignments by email to the instructor.
 └── requirements.txt
 
 ```
+
+<h2 id="Installation">🛠️ Installation</h2>
+
+To install the project on your local machine, you can use the following command :
+```
+https://github.com/karamoko17/Projet_pyspark.git
+```
+Then move to the project directory and create a new conda environment with the following command :
+```sh
+conda create -n pyspark-tutorial python=3.11
+conda activate pyspark-tutorial
+pip install -r requirements.txt
+# pip install bokeh jupyter numpy pandas psutil pyspark seaborn
+```
+We provide you with a requirements.txt which is used to download dependencies in a conda environment we will name pyspark-tutorial.
+
+You can run the Jupyter notebook now.
 
 <h2 id="Contribution">🤝 Contribution</h2>
 
