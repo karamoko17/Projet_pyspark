@@ -97,16 +97,15 @@ At the end of the course, send your assignments by email to the instructor.
 
 To install the project on your local machine, you can use the following command :
 ```
-git clone https://github.com/hugocollin/pyspark
+[git clone https://github.com/hugocollin/pyspark](https://github.com/karamoko17/Projet_pyspark.git)
 ```
 Then move to the project directory and create a new conda environment with the following command :
 ```
 conda create -n pyspark python=3.11
 conda activate pyspark
 pip install -r requirements.txt
-```
-
 # pip install bokeh jupyter numpy pandas psutil pyspark seaborn
+```
 We provide you with a requirements.txt which is used to download dependencies in a conda environment we will name pyspark.
 
 You can now run the Jupyter notebook.
