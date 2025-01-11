@@ -31,14 +31,7 @@ pip install -r requirements.txt
 ```
 We provide you with a requirements.txt which is used to download dependencies in a conda environment we will name pyspark-tutorial.
 
-Run Notebook:
-```sh
-set PYSPARK_PYTHON=python
-jupyter lab
-```
-Run a JupyterLab session : `jupyter lab` from the root of your project, when in your `pyspark-tutorial` conda environment.
-
-You can now run the Jupyter notebook.
+You can run the Jupyter notebook now.
 
 Notes: 
 - you may run into `java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.` warnings on Windows. Do not worry about it, they are necessary for remote connections only.
