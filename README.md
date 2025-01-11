@@ -1,4 +1,4 @@
-# Pyspark tutorial
+# Pyspark Project
 
 Welcome to the Pyspark tutorial section.
 
@@ -8,7 +8,7 @@ Inside each notebook, we have documented a number of questions and unimplemented
 
 **PS**: The instructor has hidden test cases on his side so don't try to circumvent the system by just returning the expected value in your method.
 
-## Prerequisites
+<h2 id="Prerequisites">🤖 Prerequisites</h2>
 
 - [Anaconda 2019+](https://www.anaconda.com/download/)
 - Required Java 8/11. 
@@ -87,14 +87,39 @@ At the end of the course, send your assignments by email to the instructor.
 │   │   └── ...
 │   ├── index.html
 │   ├── intro.pdf
-│   ├── pyspark.pdf
-│   └── README.md
-
+│   └── pyspark.pdf  
+├── README.md
+└── requirements.txt
 
 ```
 
-# Contributing guide
+# Installation
 
-This repo is generated from a private [nbgrader](https://nbgrader.readthedocs.io) project with the solutions to the problems, which I use to autograde the students solutions.
+To install the project on your local machine, you can use the following command :
+```
+git clone https://github.com/hugocollin/pyspark
+```
+Then move to the project directory and create a new conda environment with the following command :
+```
+conda create -n pyspark python=3.11
+conda activate pyspark
+pip install -r requirements.txt
+```
 
-You may create a pull request with the change in the notebook so I copy-paste it in the private repo and overwrite the files. It is normal if I close and don't merge your PR while overwriting the file with your change. Hopefully I find a better way to regenerate the release folder.
+# pip install bokeh jupyter numpy pandas psutil pyspark seaborn
+We provide you with a requirements.txt which is used to download dependencies in a conda environment we will name pyspark.
+
+You can now run the Jupyter notebook.
+
+<h2 id="Contribution">🤝 Contribution</h2>
+
+Contributions are welcome! Feel free to open a ticket or submit a pull request to suggest improvements. Here's how you can get involved:
+
+1. Clone the project.
+2. Create a branch for your feature.
+3. Make your changes and validate them with a clear message.
+4. Push your changes to your branch on the remote repository.  
+5. Submit a pull request to have your contribution reviewed.
+
+<h2 id="Author">🎯 Author</h2> 
+This project was designed and developed by KARAMOKO Awa, a student in Master 2 SISE (Statistics and Computer Science for Data Science) at Université Lumière Lyon 2.
