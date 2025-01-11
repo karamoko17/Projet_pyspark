@@ -70,10 +70,27 @@ At the end of the course, send your assignments by email to the instructor.
 │   ├── 1-Initiation-RDD.ipynb
 │   └── 2-Pagerank-RDD.ipynb
 └── 3-advanced
-    ├── FL_insurance.csv
-    ├── titanic.csv
-    ├── 1-Initiation-SparkSQL.ipynb
-    └── 2-Advanced-SQL-and-ML.ipynb
+│   ├── FL_insurance.csv
+│   ├── titanic.csv
+│   ├── 1-Initiation-SparkSQL.ipynb
+│   └── 2-Advanced-SQL-and-ML.ipynb
+├── cheatsheets/
+│   ├── conda-cheatsheet.pdf
+│   ├── Jupyter-notebook.pdf
+│   ├── Pyspark-RDD.pdf
+│   ├── Pyspark-SQL.pdf
+│   └── Python.pdf
+├── docs/
+│   ├── css/
+│   │   └── custom.css
+│   ├── images/
+│   │   └── ...
+│   ├── index.html
+│   ├── intro.pdf
+│   ├── pyspark.pdf
+│   └── README.md
+
+
 ```
 
 # Contributing guide
