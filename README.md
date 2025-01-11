@@ -29,7 +29,7 @@ conda activate pyspark-tutorial
 pip install -r requirements.txt
 # pip install bokeh jupyter numpy pandas psutil pyspark seaborn
 ```
-We provide you with a requirements.txt which is used to download dependencies in a conda environment we will name pyspark.
+We provide you with a requirements.txt which is used to download dependencies in a conda environment we will name pyspark-tutorial.
 
 Run Notebook:
 ```sh
