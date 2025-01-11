@@ -1,13 +1,21 @@
 # Pyspark Project
 
-Welcome to the Pyspark tutorial section.
+## 📖 **Table of Contents**
+1. [Descriptions](#descriptions)
+2. [Prerequisites](#Prerequisites)
+3. [Project structure](#Project-structure)
+4. [Installation](#Installation)
+5. [Contribution](#Contribution)
+6. [Author](#Author)
 
-The courses comprises of 4 folders containing notebooks. Folders and notebooks are sorted in order of difficulty given their name, so you should follow the numerotation. For example, you should finish all notebooks in `1-beginner` before starting `2-novice`. Likewise, when doing `2-novice` finish the `1-...` notebook before doing `2-...`.
+<h2 id="Descriptions">🧩 Descriptions</h2>
 
-Inside each notebook, we have documented a number of questions and unimplemented code cells answering the question, followed by a code cell which acts as test cases for the function called `Graded cell`. Your submission will be graded on how many test cases you pass given your implementation of the previous function. 
+This project offers a series of hands-on tutorials to learn the basics of PySpark, a powerful programming interface for manipulating large datasets using Spark in Python. Organized in Jupyter notebooks, these tutorials offer a step-by-step approach suitable for all levels, from beginners to more experienced users.
 
-**PS**: The instructor has hidden test cases on his side so don't try to circumvent the system by just returning the expected value in your method.
+Each module explores key concepts such as creating and manipulating Resilient Distributed Datasets (RDDs), one of Spark's fundamental structures. Participants will also learn how to implement complex algorithms such as calculating PageRank, which is used in search engines to rank web pages.
 
+In addition, the tutorials include using Spark SQL to query distributed data and introduce machine learning techniques that leverage the power of Spark MLlib. This comprehensive learning path prepares users to take full advantage of Spark for their Big Data and Data Science projects.
+   
 <h2 id="Prerequisites">🤖 Prerequisites</h2>
 
 - [Anaconda 2019+](https://www.anaconda.com/download/)
@@ -33,11 +41,11 @@ Inside each notebook, we have documented a number of questions and unimplemented
 │   ├── FL_insurance_sample.csv
 │   └── titanic.csv
 ├── cheatsheets/
-│   ├── conda-cheatsheet.pdf
 │   ├── Jupyter-notebook.pdf
 │   ├── Pyspark-RDD.pdf
 │   ├── Pyspark-SQL.pdf
-│   └── Python.pdf
+│   ├── Python.pdf 
+│   └── conda-cheatsheet.pdf
 ├── docs/
 │   ├── css/
 │   │   └── custom.css
@@ -72,7 +80,7 @@ You can run the Jupyter notebook now.
 
 Contributions are welcome! Feel free to open a ticket or submit a pull request to suggest improvements. Here's how you can get involved:
 
-1. Clone the project.
+1. Fork the project.
 2. Create a branch for your feature.
 3. Make your changes and validate them with a clear message.
 4. Push your changes to your branch on the remote repository.  
